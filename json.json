@@ -1,0 +1,255 @@
+{
+  "cardapio": [
+    {
+      "categoria": "Café",
+      "produtos": [
+        {
+          "id": 1,
+          "nome": "Espresso",
+          "preco": 6.00
+        },
+        {
+          "id": 2,
+          "nome": "Espresso e Leite",
+          "preco": 7.00
+        },
+        {
+          "id": 3,
+          "nome": "Capucino P.",
+          "preco": 10.00
+        },
+        {
+          "id": 4,
+          "nome": "Capucino G.",
+          "preco": 13.00
+        },
+        {
+          "id": 5,
+          "nome": "Café Coado",
+          "preco": 7.00
+        },
+        {
+          "id": 6,
+          "nome": "Café Coado c/ Leite",
+          "preco": 8.00
+        },
+        {
+          "id": 7,
+          "nome": "Espresso Gelado P.",
+          "preco": 8.00
+        },
+        {
+          "id": 8,
+          "nome": "Espresso Gelado G.",
+          "preco": 12.00
+        },
+        {
+          "id": 9,
+          "nome": "Leite Gelado",
+          "preco": 12.00
+        },
+        {
+          "id": 10,
+          "nome": "Capucino Gelado",
+          "preco": 15.00
+        }
+      ]
+    },
+    {
+      "categoria": "Salgados",
+      "produtos": [
+        {
+          "id": 11,
+          "nome": "Pão de Batata com Calabresa",
+          "preco": 10.00
+        },
+        {
+          "id": 12,
+          "nome": "Hamburgão de Calabresa",
+          "preco": 10.00
+        },
+        {
+          "id": 13,
+          "nome": "Empada (Palmito, Frango)",
+          "preco": 10.00
+        },
+        {
+          "id": 14,
+          "nome": "Risólis",
+          "preco": 8.00
+        },
+        {
+          "id": 15,
+          "nome": "Croissant",
+          "preco": 10.00
+        },
+        {
+          "id": 16,
+          "nome": "Sanduiche Natural",
+          "preco": 10.00
+        },
+        {
+          "id": 17,
+          "nome": "Coxinha",
+          "preco": 13.00
+        }
+      ]
+    },
+    {
+      "categoria": "Bolos e Fatias",
+      "produtos": [
+        {
+          "id": 18,
+          "nome": "Bolo de Cenoura",
+          "preco": 6.00
+        },
+        {
+          "id": 19,
+          "nome": "Red Velvet",
+          "preco": 7.00
+        },
+        {
+          "id": 20,
+          "nome": "Cheesecake",
+          "preco": 10.00
+        },
+        {
+          "id": 21,
+          "nome": "Torta de Maracujá",
+          "preco": 13.00
+        },
+        {
+          "id": 22,
+          "nome": "Brigadeiro",
+          "preco": 2.00
+        },
+        {
+          "id": 23,
+          "nome": "Beijinho de Coco",
+          "preco": 4.00
+        },
+        {
+          "id": 24,
+          "nome": "Brownie",
+          "preco": 8.00
+        },
+        {
+          "id": 25,
+          "nome": "Cookie",
+          "preco": 5.00
+        }
+      ]
+    },
+    {
+      "categoria": "Diversos",
+      "produtos": [
+        {
+          "id": 26,
+          "nome": "Halls",
+          "preco": 1.00
+        },
+        {
+          "id": 27,
+          "nome": "Trident",
+          "preco": 4.00
+        },
+        {
+          "id": 28,
+          "nome": "Paçoca",
+          "preco": 2.00
+        },
+        {
+          "id": 29,
+          "nome": "Pirulito",
+          "preco": 0.50
+        },
+        {
+          "id": 30,
+          "nome": "Bala",
+          "preco": 0.25
+        },
+        {
+          "id": 31,
+          "nome": "Canudo Frio",
+          "preco": 2.00
+        },
+        {
+          "id": 32,
+          "nome": "Amendoim",
+          "preco": 5.00
+        },
+        {
+          "id": 33,
+          "nome": "Mentos",
+          "preco": 4.00
+        },
+        {
+          "id": 34,
+          "nome": "Bis",
+          "preco": 10.00
+        }
+      ]
+    },
+    {
+      "categoria": "Águas e Refrigerante",
+      "produtos": [
+        {
+          "id": 35,
+          "nome": "Água c s gas",
+          "preco": 5.00
+        },
+        {
+          "id": 36,
+          "nome": "Refrigerante",
+          "preco": 5.00
+        },
+        {
+          "id": 37,
+          "nome": "Energético",
+          "preco": 10.00
+        },
+        {
+          "id": 38,
+          "nome": "Água Saborizada",
+          "preco": 8.00
+        },
+        {
+          "id": 39,
+          "nome": "Refrigerante 2L",
+          "preco": 13.00
+        },
+        {
+          "id": 40,
+          "nome": "Abacaxi",
+          "preco": 8.00
+        },
+        {
+          "id": 41,
+          "nome": "Abacaxi hortelã",
+          "preco": 8.00
+        },
+        {
+          "id": 42,
+          "nome": "Acerola",
+          "preco": 8.00
+        },
+        {
+          "id": 43,
+          "nome": "Morango",
+          "preco": 8.00
+        },
+        {
+          "id": 44,
+          "nome": "Maracujá",
+          "preco": 8.00
+        },
+        {
+          "id": 45,
+          "nome": "Laranja",
+          "preco": 8.00
+        }
+      ],
+      "observacao": "Água - R$8.00, Leite - R$12.00"
+    }
+  ]
+}

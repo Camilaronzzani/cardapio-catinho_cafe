@@ -1,0 +1,255 @@
+/* ==================== ESTILOS GLOBAIS ==================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+}
+
+/* ==================== NAVBAR/HEADER ==================== */
+
+.navbar-custom-header {
+    background: linear-gradient(to right, #A0663D 0%, #8B6F47 100%);
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.header-container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    gap: 40px;
+}
+
+.logo-section {
+    flex-shrink: 0;
+}
+
+.logo-circle {
+    width: 90px;
+    height: 90px;
+    background-color: #D4C4B0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 3px solid #5C4A35;
+}
+
+.header-info {
+    flex: 1;
+    text-align: right;
+}
+
+.header-title {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+.header-address {
+    color: #FFF;
+    font-size: 1rem;
+    margin: 8px 0 0 0;
+    padding: 0;
+}
+
+/* ==================== PÁGINAS ==================== */
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+/* ==================== PÁGINA BEM-VINDO ==================== */
+
+.page-benvindo {
+    background: linear-gradient(135deg, #fff9e6 0%, #ffe8cc 100%);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container-benvindo {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.left-section {
+    flex: 1;
+    background-color: #D4C4B0;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.left-section h2 {
+    color: #5C4A35;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.left-section p {
+    color: #5C4A35;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.logo-cafe {
+    width: 80px;
+    height: 80px;
+    background-color: #8B6F47;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.right-section {
+    flex: 1;
+}
+
+.right-section h1 {
+    color: #5C4A35;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.welcome-text {
+    color: #5C4A35;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.watermark {
+    color: #E8D4C4;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+/* ==================== PÁGINA CARDÁPIO ==================== */
+
+.page-cardapio {
+    background: linear-gradient(135deg, #fff9e6 0%, #ffe8cc 100%);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container-cardapio {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cardapio-title {
+    color: #5C4A35;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.categorias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.categoria-box {
+    background-color: #8B6F47;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.categoria-box h3 {
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 10px;
+}
+
+.produto-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #D4C4B0;
+}
+
+.produto-item:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.produto-nome {
+    color: #FFF;
+    font-size: 0.95rem;
+    flex: 1;
+}
+
+.produto-preco {
+    color: #FFD700;
+    font-weight: bold;
+    font-size: 0.95rem;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.watermark-cardapio {
+    color: #E8D4C4;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 40px;
+}
+
+/* ==================== RESPONSIVE ==================== */
+
+@media (max-width: 768px) {
+    .container-benvindo {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .right-section h1,
+    .cardapio-title {
+        font-size: 2rem;
+    }
+
+    .categorias-grid {
+        grid-template-columns: 1fr;
+    }
+}
